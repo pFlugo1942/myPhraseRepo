@@ -27,4 +27,8 @@ phrase:
       params: 
         locale_id: b1b4a5d2232b08601526571c17178ddf
         file_format: json
+    - file: ./source-locale/main/json-files/test_<locale_code>.json
+      params: 
+        locale_id: b79da9f28de785098c009249975a6a84
+        file_format: json
         
