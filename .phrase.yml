@@ -9,7 +9,7 @@ phrase:
     - file: ./source-locale/main/json-files/test.json
       params:
         file_format: json
-        locale_id: d24ca12b80122492c4b3a6d672b8bb9c
+        locale_id: b79da9f28de785098c009249975a6a84
         update_translations: false
         
         
@@ -17,6 +17,14 @@ phrase:
     targets:
     - file: ./translations/<locale_code>/
       params: 
-        locale_id: 39c45c249f5a3cacc5b2a8878573b4f8
+        locale_id: cba8854d15559449073ba9febf412608
+        file_format: json
+    - file: ./translations/<locale_code>/
+      params: 
+        locale_id: 1740485328201847a407eaf986357097
+        file_format: json
+    - file: ./translations/<locale_code>/
+      params: 
+        locale_id: b1b4a5d2232b08601526571c17178ddf
         file_format: json
         
