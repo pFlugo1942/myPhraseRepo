@@ -1,0 +1,21 @@
+phrase:
+  project_id: 61b49556733b0ed52699587486214940
+  file format: json
+  
+  
+  push:
+    sources:
+    - file: ./source-locale/main/json-files/test-json.json
+      params:
+        file_format: json
+        locale_id: d24ca12b80122492c4b3a6d672b8bb9c
+        update_translations: false
+        
+        
+  pull:
+    targets:
+    - file: ./translations/<locale_code>/
+      params: 
+        locale_id: 39c45c249f5a3cacc5b2a8878573b4f8
+        file_format: json
+        
