@@ -1,17 +1,12 @@
 phrase:
-  access_token: b8e67d4bb850d6fd3ddc58edc07ae780bb780b855851728c1eac33fc54d6d520
   project_id: 61b49556733b0ed52699587486214940
-  file format: json
-  
-  
   push:
     sources:
     - file: ./test.json
       params:
         file_format: json
         locale_id: b79da9f28de785098c009249975a6a84
-        update_translations: false
-        
+        update_translations: false   
   pull:
     targets:
     - file: ./translations/<locale_code>/test.json
@@ -26,4 +21,3 @@ phrase:
       params: 
         locale_id: b1b4a5d2232b08601526571c17178ddf
         file_format: json
-        
