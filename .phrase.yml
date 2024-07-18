@@ -9,6 +9,6 @@ phrase:
         update_translations: false
   pull:
     targets:
-    - file: ./<locale_code>/test.json
+    - file: ./translation-files/<locale_code>/test.json
       params:
         file_format: simple_json
