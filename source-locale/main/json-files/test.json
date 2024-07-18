@@ -1,7 +1,7 @@
 {
-    "SIGN UP": "SIGN UP",
-    "First Name": "First Name",
-    "Last Name": "Last Name",
-    "Email Address": "Email Address",
-    "phrase": "Phrase"
+  "Email Address": "Email Address",
+  "First Name": "First Name",
+  "Last Name": "Last Name",
+  "phrase": "Phrase",
+  "SIGN UP": "SIGN UP"
 }
