@@ -11,13 +11,10 @@ phrase:
     targets:
     - file: ./translations/<locale_code>/test.json
       params:
-        locale_id: cba8854d15559449073ba9febf412608
         file_format: json
     - file: ./translations/<locale_code>/test.json
       params:
-        locale_id: 1740485328201847a407eaf986357097
         file_format: json
     - file: ./translations/<locale_code>/test.json
       params:
-        locale_id: b1b4a5d2232b08601526571c17178ddf
         file_format: json
