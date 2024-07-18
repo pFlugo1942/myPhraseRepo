@@ -6,7 +6,7 @@ phrase:
       params:
         file_format: simple_json
         locale_id: en
-        update_translations: false
+        update_translations: true
   pull:
     targets:
     - file: ./translation-files/de/test.json
