@@ -6,18 +6,18 @@ phrase:
       params:
         file_format: json
         locale_id: b79da9f28de785098c009249975a6a84
-        update_translations: false   
+        update_translations: false
   pull:
     targets:
     - file: ./translations/<locale_code>/test.json
-      params: 
+      params:
         locale_id: cba8854d15559449073ba9febf412608
         file_format: json
     - file: ./translations/<locale_code>/test.json
-      params: 
+      params:
         locale_id: 1740485328201847a407eaf986357097
         file_format: json
     - file: ./translations/<locale_code>/test.json
-      params: 
+      params:
         locale_id: b1b4a5d2232b08601526571c17178ddf
         file_format: json
