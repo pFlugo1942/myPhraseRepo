@@ -6,7 +6,7 @@ phrase:
   
   push:
     sources:
-    - file: ./source-locale/main/test.json
+    - file: ./test.json
       params:
         file_format: json
         locale_id: b79da9f28de785098c009249975a6a84
