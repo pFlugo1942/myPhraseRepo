@@ -4,17 +4,17 @@ phrase:
     sources:
     - file: ./test.json
       params:
-        file_format: json
+        file_format: simple_json
         locale_id: b79da9f28de785098c009249975a6a84
         update_translations: false
   pull:
     targets:
     - file: ./<locale_code>/test.json
       params:
-        file_format: json
+        file_format: simple_json
     - file: ./<locale_code>/test.json
       params:
-        file_format: json
+        file_format: simple_json
     - file: ./<locale_code>/test.json
       params:
-        file_format: json
+        file_format: simple_json
